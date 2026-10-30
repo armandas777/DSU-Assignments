@@ -1,0 +1,919 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 23544)
+VBCSCompiler prewarm took 34.51 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-arman doesn't exist
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 15603 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-30T02:23:36Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 17444)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-projectPath
+C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial
+Successfully changed project path to: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial
+C:/Users/arman/OneDrive/Stalinis kompiuteris/Unity Projects/Terrain Tools Tutorial
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [22312]  Target information:
+
+Player connection [22312]  * "[IP] 192.168.0.28 [Port] 55504 [Flags] 2 [Guid] 2895820979 [EditorId] 2895820979 [Version] 1048832 [Id] WindowsEditor(7,Student) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22312] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22312] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-22328" after 0.3 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arman" at "2026-10-30T02:23:40.7815859Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17444, path: "C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              5d60b99d87ba4a849979adb5502baa14
+  Correlation Id:          464c84f00b92487f22a80225a026b047
+  External correlation Id: 9130722939781336128
+  Machine Id:              AjWDjWgFUnfBDQK/EQQ8acDdx08=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arman" (connect: 4.37s, validation: 0.25s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arman-notifications" at "2026-10-30T02:23:41.1071598Z"
+[Licensing::Module] Connected to LicensingClient (PId: 17444, launch time: 0.04, total connection time: 4.69s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569723831076-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 4.77s
+[Licensing::Module] Licensing is initialized (took 2.79s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/arman/OneDrive/Stalinis kompiuteris/Unity Projects/Terrain Tools Tutorial[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Refreshing native plugins compatible for Editor in 2.01 ms, found 0 plugins.
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/arman/OneDrive/Stalinis kompiuteris/Unity Projects/Terrain Tools Tutorial/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3050 Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.16.1060
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 3962 MB
+[D3D12 Device Filter] Processor Count: 12
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:          NVIDIA
+    VRAM:            3962 MB
+    App VRAM Budget: 3367 MB
+    Driver:          32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.632300 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  8.045 seconds
+Domain Reload Profiling: 19651ms
+	BeginReloadAssembly (6789ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (417ms)
+	initialDomainReloadingComplete (1122ms)
+	LoadAllAssembliesAndSetupDomain (3266ms)
+		LoadAssemblies (6774ms)
+		TypeCache.Refresh (3060ms)
+			TypeCache.ScanAssembly (2424ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (8047ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (5947ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 61 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.40 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.ide.rider@e4950c6d131b)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.terrain-tools@5.3.3 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.terrain-tools@7c2b357ea7bd)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.multiplayer.center@2.0.1 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.multiplayer.center@549886182930)
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.render-pipelines.universal@8457e85b8184)
+    com.unity.test-framework@1.8.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.timeline@281d5f7e7d7d)
+    com.unity.ugui@2.6.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.ugui@23caec89ae27)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.shadergraph@ef6135652377)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.05 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/arman/OneDrive/Stalinis kompiuteris/Unity Projects/Terrain Tools Tutorial
+ExitCode: 0 Duration: 1s743ms
+[ 787/1013  1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (1.60 seconds), 1 items updated, 1013 evaluated
+AssetDatabase: script compilation time: 3.923474s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 148.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  6.616 seconds
+Domain Reload Profiling: 12755ms
+	BeginReloadAssembly (643ms)
+		DisableScriptedObjects (115ms)
+		CreateAndSetChildDomain (172ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (179ms)
+	LoadAllAssembliesAndSetupDomain (5260ms)
+		LoadAssemblies (4295ms)
+		TypeCache.Refresh (519ms)
+			TypeCache.ScanAssembly (488ms)
+		AnalyzeDomain (232ms)
+			BuildScriptInfoCaches (208ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (6617ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (6ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (325ms)
+			ProcessInitializeOnLoadAttributes (4777ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+			AfterProcessingInitializeOnLoad (56ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+Starting new worker id: 0 with log in C:/Users/arman/OneDrive/Stalinis kompiuteris/Unity Projects/Terrain Tools Tutorial/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=51b6e576414d0d249afacdc16b7da6c3): Total: 35.786 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=25238 ms
+		Asset DB Callback time: managed=112 ms, native=92 ms
+		Scripting: domain reloads=1, domain reload time=6302 ms, compile time=3928 ms, other=112 ms
+		Project Asset Count: scripts=1435, non-scripts=2732
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 97.357ms
+	ApplyChangesToAssetFolders: 1.703ms
+	Scan: 574.697ms
+	Collect global state as custom dependencies: 68.216ms
+	CategorizeScriptCompilationAssets: 4327.616ms
+	ProcessAssetsWithTransientArtifactChanges: 188.611ms
+	CategorizeAssets: 97.593ms
+	CompileScripts: 3927.547ms
+	ImportOutOfDateAssets: 6802.629ms (6780.449ms without children)
+		ReloadNativeAssets: 0.265ms
+		UnloadImportedAssets: 0.834ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.969ms
+		ImportSchedulerStart: 20.106ms
+	PostProcessAllAssets: 112.475ms
+		MonoPostProcessAllAssets: 112.371ms
+			SyncVS.PostprocessSyncProject 44.740ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 29.546ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.291ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.146ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.738ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.390ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.287ms
+			TerrainToolsPostprocessor.OnPostprocessAllAssets 0.676ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.635ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.602ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.418ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.364ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.306ms
+	UnloadStreamsBegin: 3.636ms
+	PersistCurrentRevisions: 0.152ms
+	GenerateScriptTypeHashes: 2.557ms
+	GenerateScriptTypeSerializationHashes: 4.457ms
+	Untracked: 19531.022ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Scanning for USB devices : 4.066ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Terrain Tools Tutorial
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            24.214 ms
+	Integration:            144.206 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.483 ms
+	Total Operation Time:   168.911 ms
+Unloading 6786 unused Assets / (5.5 MB). Loaded Objects now: 7836.
+Memory consumption went from 434.4 MB to 428.9 MB.
+Total: 27.704300 ms (FindLiveObjects: 1.173500 ms CreateObjectMapping: 1.128000 ms MarkObjects: 17.636300 ms  DeleteObjects: 7.093900 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/arman/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+[Project] Loading completed in 77.623 seconds
+	Project init time: 				73.409 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		3.080 seconds
+		Asset Database init time: 		0.990 seconds
+		Global illumination init time: 	0.012 seconds
+		Assemblies load time: 			25.821 seconds
+		Unity extensions init time: 	0.105 seconds
+		Asset Database refresh time: 	35.787 seconds
+	Scene opening time: 			3.939 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793327093938,"processId":22328,"projectLoad":77.6226475,"projectInit":73.4085339,"templateInit":0.0,"packageManagerInit":3.079768,"assetDatabaseInit":0.9904648,"globalIlluminationInit":0.0122934,"assembliesLoad":25.8210223,"unityExtensionsInit":0.1051958,"assetDatabaseRefresh":35.786789,"sceneOpening":3.9391124}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793327093939,"processId":22328,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Created GICache directory at C:/Users/arman/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.081s, timestamps: [80.622 - 80.703]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW0 0
+Scanning for USB devices : 3.147ms
+Scanning for USB devices : 3.161ms
+TrimDiskCacheJob: Current cache size 0mb
+Couldn't find a readme
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ReadmeEditor:SelectReadme () (at Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs:90)
+ReadmeEditor:SelectReadmeAutomatically () (at Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs:58)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs Line: 90)
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '1234d6af70f66210ce7cfda4e66e8b00') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=1def488656846da6ef2e03206928b0e0 StaticDependenciesID=a0cf3dfdae99c755d92b7948d1cfcae0 
+Importing 'GUID: fad382e1288ad184bbb627ae32f73232 - Path: Assets/TerrainData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: fad382e1288ad184bbb627ae32f73232' -> (Import Result ID: '74c0b0e83f9fd4e3a443a41a5d182e08') in 0.017 seconds [static dependencies only]. Details - ImportResultOutputID=23c0472c669dca3e21f26bc0554951aa DependenciesID=14d372b0f7bbb89219e1a973f5f7f221 StaticDependenciesID=cb5099b3b6ba758459d3ce3cd98110d1 
+Refreshing native plugins compatible for Editor in 3.62 ms, found 4 plugins.
+Asset Pipeline Refresh (id=2251dec30f0f52b4789c21697f4114a4): Total: 0.259 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Starting new worker id: 1 with log in C:/Users/arman/OneDrive/Stalinis kompiuteris/Unity Projects/Terrain Tools Tutorial/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: fad382e1288ad184bbb627ae32f73232 - Path: Assets/TerrainData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fd51965d3cbd1e125d82749a34a6eb2a') in 0.170914 seconds
+Worker ready: AssetImportWorkerHW1 1
+Request Asset Garbage Collect because used heap size increased from 428.8 MB to 0.67 GB, exceeding the threshold of 256.0 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 132 unused Assets / (16.8 MB). Loaded Objects now: 9296.
+Memory consumption went from 0.67 GB to 0.65 GB.
+Total: 34.285900 ms (FindLiveObjects: 0.735700 ms CreateObjectMapping: 0.155000 ms MarkObjects: 27.288800 ms  DeleteObjects: 5.667500 ms)
+
+Scanning for USB devices : 3.018ms
+Scanning for USB devices : 2.878ms
+Scanning for USB devices : 3.499ms
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            11.131 ms
+	Integration:            33.007 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.025 ms
+	Total Operation Time:   44.166 ms
+Unloading 20 unused Assets / (16.9 MB). Loaded Objects now: 9226.
+Memory consumption went from 0.64 GB to 0.62 GB.
+Total: 31.339500 ms (FindLiveObjects: 0.652300 ms CreateObjectMapping: 0.137700 ms MarkObjects: 25.415100 ms  DeleteObjects: 4.611400 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            11.541 ms
+	Integration:            26.729 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   38.297 ms
+Unloading 3 unused Assets / (22.6 KB). Loaded Objects now: 9224.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 38.926400 ms (FindLiveObjects: 0.909600 ms CreateObjectMapping: 0.174500 ms MarkObjects: 37.434200 ms  DeleteObjects: 0.053000 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.283 ms
+	Integration:            25.908 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.030 ms
+	Total Operation Time:   27.224 ms
+Unloading 3 unused Assets / (10.1 KB). Loaded Objects now: 9224.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 25.569800 ms (FindLiveObjects: 0.887100 ms CreateObjectMapping: 0.201100 ms MarkObjects: 24.087400 ms  DeleteObjects: 0.058200 ms)
+
+Request Asset Garbage Collect because used heap size increased from 0.60 GB to 0.85 GB, exceeding the threshold of 256.0 MB.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (16.5 MB). Loaded Objects now: 9346.
+Memory consumption went from 0.85 GB to 0.83 GB.
+Total: 25.413400 ms (FindLiveObjects: 0.691000 ms CreateObjectMapping: 0.129200 ms MarkObjects: 19.638300 ms  DeleteObjects: 4.492600 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Worker0] Imported GUID: 727a75301c3d24613a3ebcec4a24c2c8 - Path: Assets/TutorialInfo/Icons/URP.png - Importer: PreviewImporter -> (ImportResultId: '56c2d3a8ca85348cf0faf44d8d5e42df') in 0.3302949 seconds
+Importing 'GUID: d614ed455a62cbc4186639ab7b00e2c8 - Path: Assets/Scenes/NewBrush.brush' with importer (NativeFormatImporter)
+Imported 'GUID: d614ed455a62cbc4186639ab7b00e2c8' -> (Import Result ID: 'bd95afdd8cdb0254a23fc5758f16fb6a') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=9bbb5413f532c4727dc242b4963ba35f DependenciesID=7db84d1485ec2830e7f110a356ff5ada StaticDependenciesID=b5e4a0e5ac3f4cf52b11af7cb72b2915 
+Refreshing native plugins compatible for Editor in 5.00 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=883696daf23d60f4c96500991357285b): Total: 0.642 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=433 ms
+		Asset DB Callback time: managed=63 ms, native=144 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1435, non-scripts=2733
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 0.611ms
+	Scan: 315.475ms
+	Collect global state as custom dependencies: 1.519ms
+	OnSourceAssetsModified: 0.108ms
+	ProcessAssetsWithTransientArtifactChanges: 1.505ms
+	CategorizeAssets: 46.569ms
+	ImportOutOfDateAssets: 9.336ms (0.956ms without children)
+		ImportManagerImport: 6.186ms (0.554ms without children)
+		ReloadNativeAssets: 0.076ms
+		UnloadImportedAssets: 0.214ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.697ms
+		ImportSchedulerStart: 1.192ms
+	PostProcessAllAssets: 189.374ms
+		XRBuildSystem.XRAssetImported 137.431ms
+		VersionControlSettings.HiddenFilePostprocess 0.104ms
+		MonoPostProcessAllAssets: 51.319ms
+			SyncVS.PostprocessSyncProject 35.139ms
+			AssetPostprocessor.OnPostprocessAllAssets 10.836ms
+			AssetChangedListener.OnPostprocessAllAssets 1.543ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.052ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.662ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.650ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.205ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.120ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 0.078ms
+			PostProcessor.OnPostprocessAllAssets 0.072ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.051ms
+	PostAssetChangesProfiler: 17.727ms
+	GatherAllCurrentPrimaryImportResultRevisions: 3.098ms
+	UnloadStreamsBegin: 2.828ms
+	PersistCurrentRevisions: 0.256ms
+	Untracked: 26.333ms
+
+[Worker0] Imported GUID: d614ed455a62cbc4186639ab7b00e2c8 - Path: Assets/Scenes/NewBrush.brush - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7694bb9620314d03349b37f85d2557fa') in 0.1195078 seconds
+[Worker1] Imported GUID: d614ed455a62cbc4186639ab7b00e2c8 - Path: Assets/Scenes/NewBrush.brush - Importer: PreviewImporter -> (ImportResultId: '77a7edadde1eeda52672985af08e1eb4') in 0.300029 seconds
+Request Asset Garbage Collect because used heap size increased from 0.82 GB to 1.11 GB, exceeding the threshold of 256.0 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (119.1 KB). Loaded Objects now: 9627.
+Memory consumption went from 1.10 GB to 1.10 GB.
+Total: 27.262400 ms (FindLiveObjects: 1.195600 ms CreateObjectMapping: 0.232500 ms MarkObjects: 25.003900 ms  DeleteObjects: 0.221700 ms)
+
+Importing 'GUID: d614ed455a62cbc4186639ab7b00e2c8 - Path: Assets/NewBrush.brush' with importer (NativeFormatImporter)
+Imported 'GUID: d614ed455a62cbc4186639ab7b00e2c8' -> (Import Result ID: 'bd95afdd8cdb0254a23fc5758f16fb6a') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9bbb5413f532c4727dc242b4963ba35f DependenciesID=7db84d1485ec2830e7f110a356ff5ada StaticDependenciesID=b5e4a0e5ac3f4cf52b11af7cb72b2915 
+Refreshing native plugins compatible for Editor in 3.54 ms, found 4 plugins.
+Asset Pipeline Refresh (id=a82e0370eb337fb42bf11d7994569618): Total: 0.070 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=6f4899b3d9ff05f4ea8da861232d854d): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: fad382e1288ad184bbb627ae32f73232 - Path: Assets/TerrainData.asset - Importer: PreviewImporter -> (ImportResultId: 'e30df09067d05b3835017bc41e0de3ec') in 0.0476557 seconds
+[Worker0] Imported GUID: d614ed455a62cbc4186639ab7b00e2c8 - Path: Assets/NewBrush.brush - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '073b8f128b620a9a1e3cc3ff695db9a2') in 0.0227484 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
+Asset Pipeline Refresh (id=9072b908cfdd9c540911a613b944e5f6): Total: 0.078 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=608f3c676b07d1a47ac00f5ef5835696): Total: 0.064 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Asset Pipeline Refresh (id=cc448db7c00d7434a9476ffc8202dc37): Total: 0.059 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: d614ed455a62cbc4186639ab7b00e2c8 - Path: Assets/NewBrush.brush' with importer (NativeFormatImporter)
+Imported 'GUID: d614ed455a62cbc4186639ab7b00e2c8' -> (Import Result ID: '3cec9c983a724c4733e60a7d99aacf84') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=9bbb5413f532c4727dc242b4963ba35f DependenciesID=51c66ef459876d82a0ff8064a9170a54 StaticDependenciesID=089a313100ea73e3aeb4e8054025c05b 
+Importing 'GUID: fad382e1288ad184bbb627ae32f73232 - Path: Assets/TerrainData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: fad382e1288ad184bbb627ae32f73232' -> (Import Result ID: 'd4f8ab96a241d9c3e22108bc143d5ca9') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=23c0472c669dca3e21f26bc0554951aa DependenciesID=063edfc1f509b689f4c09e4e8744919c StaticDependenciesID=a270ae8e28e96e7b6d2d03a0b09cbd2e 
+Refreshing native plugins compatible for Editor in 9.01 ms, found 4 plugins.
+Asset Pipeline Refresh (id=3f953e7f2c2e2fe42812ed5019ceabb0): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 3ec20939392d99f4e9fd6f679796f13e - Path: Assets/Scenes/After.unity' with importer (DefaultImporter)
+Imported 'GUID: 3ec20939392d99f4e9fd6f679796f13e' -> (Import Result ID: '7f2b0c29e9c511df88008cb15d86117c') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=1452ebf8b10bf2a067f6e1ab6ff1902d DependenciesID=40ee428aab3c3f536f9c0a33fc4c05d4 StaticDependenciesID=f21c498c0bb5d1d532eeea915ccf8a8d 
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+Asset Pipeline Refresh (id=9ba19a74442b97f49a3ff45d7e683f87): Total: 0.044 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker1] Imported GUID: fad382e1288ad184bbb627ae32f73232 - Path: Assets/TerrainData.asset - Importer: PreviewImporter -> (ImportResultId: 'f0aa9875ac8a51056cbded59c810bb71') in 0.0567354 seconds
+[Worker0] Imported GUID: d614ed455a62cbc4186639ab7b00e2c8 - Path: Assets/NewBrush.brush - Importer: PreviewImporter -> (ImportResultId: '2c8cc807f1e05bd668d9ed79b63731ea') in 0.1011429 seconds
+[Worker0] Imported GUID: d614ed455a62cbc4186639ab7b00e2c8 - Path: Assets/NewBrush.brush - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '73b10673915e1307c044eb2e83ecaf56') in 0.024804 seconds
+[Worker1] Imported GUID: fad382e1288ad184bbb627ae32f73232 - Path: Assets/TerrainData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '89af07b77011dae705da9c8dd079d6e6') in 0.5091906 seconds
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            5.194 ms
+	Integration:            56.900 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   62.113 ms
+Unloading 190 unused Assets / (10.9 MB). Loaded Objects now: 9692.
+Memory consumption went from 1.18 GB to 1.17 GB.
+Total: 32.259400 ms (FindLiveObjects: 0.768800 ms CreateObjectMapping: 0.186500 ms MarkObjects: 28.412100 ms  DeleteObjects: 2.525400 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.237 ms
+	Integration:            38.466 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.026 ms
+	Total Operation Time:   39.730 ms
+Unloading 3 unused Assets / (31.3 KB). Loaded Objects now: 9690.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 42.710700 ms (FindLiveObjects: 0.888500 ms CreateObjectMapping: 0.225300 ms MarkObjects: 41.137800 ms  DeleteObjects: 0.064400 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.215 ms
+	Integration:            29.693 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.025 ms
+	Total Operation Time:   30.936 ms
+Unloading 3 unused Assets / (13.9 KB). Loaded Objects now: 9690.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 29.155600 ms (FindLiveObjects: 0.805300 ms CreateObjectMapping: 0.202100 ms MarkObjects: 27.744000 ms  DeleteObjects: 0.051700 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.495 ms
+	Integration:            28.461 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.027 ms
+	Total Operation Time:   29.985 ms
+Unloading 1 unused Assets / (163.8 KB). Loaded Objects now: 9690.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 27.951500 ms (FindLiveObjects: 0.839400 ms CreateObjectMapping: 0.161900 ms MarkObjects: 26.492800 ms  DeleteObjects: 0.052600 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.246 ms
+	Integration:            29.260 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   30.538 ms
+Unloading 2 unused Assets / (8.4 KB). Loaded Objects now: 9691.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 43.553300 ms (FindLiveObjects: 1.007800 ms CreateObjectMapping: 0.233100 ms MarkObjects: 41.910100 ms  DeleteObjects: 0.048500 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.215 ms
+	Integration:            28.708 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   29.946 ms
+Unloading 3 unused Assets / (28.0 KB). Loaded Objects now: 9690.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 40.768300 ms (FindLiveObjects: 0.901400 ms CreateObjectMapping: 0.236800 ms MarkObjects: 39.215300 ms  DeleteObjects: 0.054400 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.320 ms
+	Integration:            28.985 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   30.327 ms
+Unloading 1 unused Assets / (109.5 KB). Loaded Objects now: 9690.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 29.500000 ms (FindLiveObjects: 0.749000 ms CreateObjectMapping: 0.149900 ms MarkObjects: 28.187600 ms  DeleteObjects: 0.050100 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.323 ms
+	Integration:            38.576 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   39.926 ms
+Unloading 3 unused Assets / (179.8 KB). Loaded Objects now: 9694.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 30.748600 ms (FindLiveObjects: 0.924000 ms CreateObjectMapping: 0.232200 ms MarkObjects: 28.991000 ms  DeleteObjects: 0.076800 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.139 ms
+	Integration:            28.620 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   29.779 ms
+Unloading 3 unused Assets / (4.9 KB). Loaded Objects now: 9692.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 29.111800 ms (FindLiveObjects: 0.845100 ms CreateObjectMapping: 0.217100 ms MarkObjects: 27.623500 ms  DeleteObjects: 0.054900 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.689 ms
+	Integration:            31.760 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   33.476 ms
+Unloading 3 unused Assets / (7.8 KB). Loaded Objects now: 9692.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 29.783000 ms (FindLiveObjects: 0.825800 ms CreateObjectMapping: 0.180800 ms MarkObjects: 28.304900 ms  DeleteObjects: 0.064600 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.447 ms
+	Integration:            31.717 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.028 ms
+	Total Operation Time:   33.194 ms
+Unloading 1 unused Assets / (185.2 KB). Loaded Objects now: 9696.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 28.106000 ms (FindLiveObjects: 0.749600 ms CreateObjectMapping: 0.153700 ms MarkObjects: 26.812700 ms  DeleteObjects: 0.048300 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.125 ms
+	Integration:            28.218 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.025 ms
+	Total Operation Time:   29.371 ms
+Unloading 2 unused Assets / (13.9 KB). Loaded Objects now: 9695.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 27.373800 ms (FindLiveObjects: 0.828900 ms CreateObjectMapping: 0.205800 ms MarkObjects: 25.913400 ms  DeleteObjects: 0.052100 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.253 ms
+	Integration:            31.333 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.025 ms
+	Total Operation Time:   32.613 ms
+Unloading 3 unused Assets / (18.3 KB). Loaded Objects now: 9694.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 39.930300 ms (FindLiveObjects: 1.132900 ms CreateObjectMapping: 0.259400 ms MarkObjects: 38.026600 ms  DeleteObjects: 0.070500 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.177 ms
+	Integration:            28.964 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   30.163 ms
+Unloading 1 unused Assets / (53.4 KB). Loaded Objects now: 9694.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 28.588300 ms (FindLiveObjects: 0.773700 ms CreateObjectMapping: 0.153800 ms MarkObjects: 27.258200 ms  DeleteObjects: 0.049000 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.021 ms
+	Integration:            29.093 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   30.135 ms
+Unloading 1 unused Assets / (32.4 KB). Loaded Objects now: 9694.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 28.783400 ms (FindLiveObjects: 0.862200 ms CreateObjectMapping: 0.152200 ms MarkObjects: 27.262200 ms  DeleteObjects: 0.049500 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.229 ms
+	Integration:            29.365 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   30.615 ms
+Unloading 1 unused Assets / (29.5 KB). Loaded Objects now: 9696.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 31.594200 ms (FindLiveObjects: 0.789700 ms CreateObjectMapping: 0.177600 ms MarkObjects: 30.214400 ms  DeleteObjects: 0.048900 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            7.853 ms
+	Integration:            29.383 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.027 ms
+	Total Operation Time:   37.265 ms
+Unloading 3 unused Assets / (82.8 KB). Loaded Objects now: 9694.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 39.813500 ms (FindLiveObjects: 0.926000 ms CreateObjectMapping: 0.179100 ms MarkObjects: 38.237900 ms  DeleteObjects: 0.063700 ms)
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.039 ms
+	Integration:            32.660 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   33.718 ms
+Unloading 2 unused Assets / (7.5 KB). Loaded Objects now: 9691.
+Memory consumption went from 0.81 GB to 0.81 GB.
+Total: 30.958200 ms (FindLiveObjects: 0.872700 ms CreateObjectMapping: 0.165800 ms MarkObjects: 29.292900 ms  DeleteObjects: 0.098300 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.129 ms
+	Integration:            31.260 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   32.410 ms
+Unloading 1 unused Assets / (95.4 KB). Loaded Objects now: 9689.
+Memory consumption went from 0.81 GB to 0.81 GB.
+Total: 34.218900 ms (FindLiveObjects: 0.866600 ms CreateObjectMapping: 0.174000 ms MarkObjects: 32.732300 ms  DeleteObjects: 0.049500 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            4.274 ms
+	Integration:            43.798 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   48.091 ms
+Unloading 2 unused Assets / (257.2 KB). Loaded Objects now: 9690.
+Memory consumption went from 0.81 GB to 0.81 GB.
+Total: 32.410400 ms (FindLiveObjects: 0.804200 ms CreateObjectMapping: 0.183300 ms MarkObjects: 30.970400 ms  DeleteObjects: 0.053400 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.195 ms
+	Integration:            29.962 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.032 ms
+	Total Operation Time:   31.191 ms
+Unloading 1 unused Assets / (1.7 KB). Loaded Objects now: 9690.
+Memory consumption went from 0.81 GB to 0.81 GB.
+Total: 35.484900 ms (FindLiveObjects: 0.788800 ms CreateObjectMapping: 0.150400 ms MarkObjects: 34.061100 ms  DeleteObjects: 0.084500 ms)
+
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Before.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: 'b42836b4404ae4447241b383f5f31d74') in 0.011 seconds [static dependencies only]. Details - ImportResultOutputID=35a40f2520af10f79b64e4656ff9e78c DependenciesID=c7a8f8e6d79565ef8c52f404e3cb625f StaticDependenciesID=f8409015cc1c9f376c4aaef8238f358f 
+Refreshing native plugins compatible for Editor in 4.27 ms, found 4 plugins.
+Asset Pipeline Refresh (id=448f7f3c32a9aec45a11782f6e79bd11): Total: 0.079 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.094 ms
+	Integration:            36.295 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   37.413 ms
+Unloading 160 unused Assets / (10.3 MB). Loaded Objects now: 9702.
+Memory consumption went from 0.82 GB to 0.81 GB.
+Total: 32.012100 ms (FindLiveObjects: 0.916700 ms CreateObjectMapping: 0.214300 ms MarkObjects: 30.135100 ms  DeleteObjects: 0.361300 ms)
+
+[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Before.unity - Importer: PreviewImporter -> (ImportResultId: '5ab946c903a07a94e4e1293c9712048f') in 0.0235244 seconds
+[Worker1] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Before.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '43f183a2336e50ba995274da81efd7a7') in 0.0235063 seconds
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.311 ms
+	Integration:            32.695 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.025 ms
+	Total Operation Time:   34.035 ms
+Unloading 11 unused Assets / (36.3 KB). Loaded Objects now: 9686.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 45.171400 ms (FindLiveObjects: 0.890000 ms CreateObjectMapping: 0.193000 ms MarkObjects: 43.509300 ms  DeleteObjects: 0.107500 ms)
+
+Importing 'GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/New Terrain.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9ce5509a39fd52e4fab111093760ff2b' -> (Import Result ID: '5c40b5db7698a0af2246d76106d240e7') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c0e8902c23fbe96f1b1ca56a8390e56c DependenciesID=edc9dc4083f1d4a5c351d530a6b24fcf StaticDependenciesID=8b9a9bd8a3511fda96cb261575962491 
+Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Asset Pipeline Refresh (id=f913134a8b3a42e41861d60c4f75b812): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/New Terrain.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e3092c36d29af3202afcbcada4b1e125') in 0.050532 seconds
+[Worker0] Imported GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/New Terrain.asset - Importer: PreviewImporter -> (ImportResultId: 'b9ae64f4bd99cd77ae9658b9848020ba') in 0.0376768 seconds
+Importing 'GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/BeforeTerrainData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9ce5509a39fd52e4fab111093760ff2b' -> (Import Result ID: '73bc1914b8a0dacf59a990fc5a7fdb27') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c0e8902c23fbe96f1b1ca56a8390e56c DependenciesID=89d59e71319cce998c4d4aa0a5f9cb93 StaticDependenciesID=55e5ec371d3011566d3551f6c4c0b204 
+Refreshing native plugins compatible for Editor in 3.48 ms, found 4 plugins.
+Asset Pipeline Refresh (id=cf5ba4c24ea54f04facaedaa4c374a5c): Total: 0.073 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/BeforeTerrainData.asset - Importer: PreviewImporter -> (ImportResultId: '8936fa50739caea34510b441bcb58a44') in 0.0258289 seconds
+[Worker0] Imported GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/BeforeTerrainData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f8831b8186828d49371618007080fad5') in 0.0376479 seconds
+Importing 'GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/BeforeTerrainData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9ce5509a39fd52e4fab111093760ff2b' -> (Import Result ID: 'b47edbb46400c1b1ae90175da49cacac') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c0e8902c23fbe96f1b1ca56a8390e56c DependenciesID=3bf98ab7afe089a657f7bb11a7e2763b StaticDependenciesID=1a4413beb24b68e367f6c3e55dc877c3 
+Refreshing native plugins compatible for Editor in 6.26 ms, found 4 plugins.
+Asset Pipeline Refresh (id=1c55fbc4f9a76b34d9b3882e4d78369e): Total: 0.074 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Before.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '0622e1cb61eb5c4e84aa84039dc480e5') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=35a40f2520af10f79b64e4656ff9e78c DependenciesID=745c5a38dca367323b0d62e5aa30bab5 StaticDependenciesID=8bf3c48c703911497f7fee78a6413bf9 
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Asset Pipeline Refresh (id=9dc03c06c5ece3547970dd9eb0b72dd2): Total: 0.059 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            2.144 ms
+	Integration:            35.885 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   38.053 ms
+Unloading 184 unused Assets / (9.9 MB). Loaded Objects now: 9716.
+Memory consumption went from 0.84 GB to 0.83 GB.
+Total: 34.151900 ms (FindLiveObjects: 1.063000 ms CreateObjectMapping: 0.187900 ms MarkObjects: 31.131000 ms  DeleteObjects: 1.291800 ms)
+
+[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Before.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b3545b48284567586b88579705298bde') in 0.0280135 seconds
+[Worker1] Imported GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/BeforeTerrainData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f7e8d7032605bca69ad6384acad02dc8') in 0.0377057 seconds
+[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Before.unity - Importer: PreviewImporter -> (ImportResultId: '8704b180db652cc4c36fc8763eaf2174') in 0.0194235 seconds
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.237 ms
+	Integration:            33.677 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   34.931 ms
+Unloading 13 unused Assets / (1.9 MB). Loaded Objects now: 9729.
+Memory consumption went from 0.81 GB to 0.81 GB.
+Total: 41.523800 ms (FindLiveObjects: 0.936200 ms CreateObjectMapping: 0.216000 ms MarkObjects: 39.845800 ms  DeleteObjects: 0.128700 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.268 ms
+	Integration:            44.554 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   45.853 ms
+Unloading 3 unused Assets / (158.9 KB). Loaded Objects now: 9743.
+Memory consumption went from 0.83 GB to 0.83 GB.
+Total: 40.065500 ms (FindLiveObjects: 0.968100 ms CreateObjectMapping: 0.231100 ms MarkObjects: 38.095500 ms  DeleteObjects: 0.079500 ms)
+
+Opening scene 'Assets/Scenes/Before.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Before.unity'
+	Deserialize:            1.203 ms
+	Integration:            35.288 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   36.517 ms
+Unloading 3 unused Assets / (1.8 MB). Loaded Objects now: 9741.
+Memory consumption went from 0.81 GB to 0.81 GB.
+Total: 34.776800 ms (FindLiveObjects: 0.979500 ms CreateObjectMapping: 0.251500 ms MarkObjects: 33.067900 ms  DeleteObjects: 0.076000 ms)
+
+Opening scene 'Assets/Scenes/After.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/After.unity'
+	Deserialize:            1.292 ms
+	Integration:            33.691 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   34.999 ms
+Unloading 3 unused Assets / (117.3 KB). Loaded Objects now: 9741.
+Memory consumption went from 0.81 GB to 0.81 GB.
+Total: 30.312900 ms (FindLiveObjects: 0.828400 ms CreateObjectMapping: 0.178900 ms MarkObjects: 28.745000 ms  DeleteObjects: 0.067400 ms)
+
+[Worker0] Imported GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/BeforeTerrainData.asset - Importer: PreviewImporter -> (ImportResultId: '451df810ac165638910fbfd64139ea9d') in 0.0270987 seconds
+Importing 'GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/BeforeTerrainData.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9ce5509a39fd52e4fab111093760ff2b' -> (Import Result ID: 'ae67800972508d5eed306ff37e636ae1') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=c0e8902c23fbe96f1b1ca56a8390e56c DependenciesID=0bf129a8e0f51afd79b6a8c94a626ac6 StaticDependenciesID=5c474991b17f343f1802297a2c94da71 
+Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+Asset Pipeline Refresh (id=5e71476b131fce549982454b894fc7ad): Total: 0.072 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/BeforeTerrainData.asset - Importer: PreviewImporter -> (ImportResultId: '4a184d52c4b52e832a66bd0acd5e1669') in 0.0238332 seconds
+[Worker0] Imported GUID: 9ce5509a39fd52e4fab111093760ff2b - Path: Assets/BeforeTerrainData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4a1d6782e8a9d1366ed502753bd0013f') in 0.0360562 seconds
+MonoPathRemapper: Attempts to remap: 29169; Successful remaps: 210
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout C:\Users\arman\OneDrive\Stalinis kompiuteris\Unity Projects\Terrain Tools Tutorial\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/arman/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-arman-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-arman channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793332655369,"processId":22328,"allocatedMemory":18044329,"memoryLabels":[{"Default":234257},{"Permanent":15516},{"NewDelete":72553},{"Thread":4210208},{"Manager":820776},{"VertexData":8},{"Geometry":816},{"Shader":868001},{"Material":84788},{"TextureCache":4408},{"GfxDevice":111768},{"GfxThread":13824},{"Animation":185448},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":190536},{"Input":45280},{"JobScheduler":256},{"TextLib":19882},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1298604},{"BaseObject":49232},{"Resource":1208},{"Renderer":2376},{"Transform":4685},{"File":31145},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":478136},{"StaticString":3808},{"Utility":2674509},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":14869},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":10939},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":268350},{"EditorUtility":833504},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4965844},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35969},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":1264},{"AssetReference":32},{"IPCStream":32}]}

@@ -1,0 +1,27 @@
+[2026-10-30T02:23:38.249Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 22328 --ipc-path Unity-Upm-22328 -l 2 --log-file 'C:\\Users\\arman\\OneDrive\\Stalinis kompiuteris\\Unity Projects\\Terrain Tools Tutorial/Logs/upm.log'
+[2026-10-30T02:23:38.336Z][INFO] IPC server started (IPC path=Unity-Upm-22328).
+[2026-10-30T02:23:38.336Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-22328.
+[2026-10-30T02:24:03.356Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-30T02:24:04.697Z][INFO] project:list-packages --> 200 (1342 ms)
+[2026-10-30T02:24:09.246Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-30T02:24:09.257Z][INFO] config:project:get-registries --> 200 (11 ms)
+[2026-10-30T02:24:09.289Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-30T02:24:10.021Z][INFO] project:list-packages --> 200 (732 ms)
+[2026-10-30T02:24:39.913Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-30T02:24:40.060Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-30T02:24:40.544Z][INFO] project:list-packages --> 200 (632 ms)
+[2026-10-30T02:24:40.833Z][INFO] project:list-packages --> 200 (773 ms)
+[2026-10-30T02:24:44.562Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-30T02:24:44.788Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-30T02:24:44.813Z][INFO] config:project:get-registries --> 200 (25 ms)
+[2026-10-30T02:24:44.864Z][INFO] project:list-packages --> 200 (302 ms)
+[2026-10-30T02:24:53.842Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-30T02:24:54.548Z][INFO] project:list-packages --> 200 (706 ms)

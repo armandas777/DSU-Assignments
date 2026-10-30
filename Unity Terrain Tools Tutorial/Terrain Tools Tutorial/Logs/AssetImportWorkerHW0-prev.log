@@ -1,0 +1,518 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 15603 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arman" at "2026-10-29T17:45:09.9798303Z"
+Process architecture: x64
+Date: 2026-10-29T17:45:09Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 13132, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              5a2758f6b8934ef9b1f171f7a0502422
+  Correlation Id:          08e2dc5d991a7dbd77dcb8381f476e6a
+  External correlation Id: 1224127899844569867
+  Machine Id:              AjWDjWgFUnfBDQK/EQQ8acDdx08=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arman" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arman-notifications" at "2026-10-29T17:45:10.068603Z"
+[Licensing::Module] Licensing Background thread has ended after 0.09s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/arman/OneDrive/Stalinis kompiuteris/Unity Projects/Terrain Tools Tutorial
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+54981
+-parentPid
+19068
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+869d3a6e-8d10-4c59-b626-a98290ee46c2
+-analyticsLocalProjectId
+f2c11889c84927542ba6fd83ae111a40
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+6249bd59a8b0e20c40ef1de5ca6bdfa30f5e23eb
+-cbmMachineId
+AjWDjWgFUnfBDQK/EQQ8acDdx08=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/arman/OneDrive/Stalinis kompiuteris/Unity Projects/Terrain Tools Tutorial
+C:/Users/arman/OneDrive/Stalinis kompiuteris/Unity Projects/Terrain Tools Tutorial
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [17896]  Target information:
+
+Player connection [17896]  * "[IP] 172.30.1.36 [Port] 0 [Flags] 2 [Guid] 2174646926 [EditorId] 2174646926 [Version] 1048832 [Id] WindowsEditor(7,Student) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17896] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17896] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.33 ms, found 4 plugins.
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/arman/OneDrive/Stalinis kompiuteris/Unity Projects/Terrain Tools Tutorial/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:          NVIDIA
+    VRAM:            3962 MB
+    App VRAM Budget: 3367 MB
+    Driver:          32.0.16.1060
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Cannot attach thread to NULL scripting domain.
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007464 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.766 seconds
+Domain Reload Profiling: 5572ms
+	BeginReloadAssembly (329ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (274ms)
+	LoadAllAssembliesAndSetupDomain (1155ms)
+		LoadAssemblies (326ms)
+		TypeCache.Refresh (580ms)
+			TypeCache.ScanAssembly (540ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (3769ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (6ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (343ms)
+			ProcessInitializeOnLoadAttributes (460ms)
+			ProcessInitializeOnLoadMethodAttributes (2586ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569723831076-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.323 seconds
+Domain Reload Profiling: 4050ms
+	BeginReloadAssembly (550ms)
+		DisableScriptedObjects (27ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (224ms)
+	LoadAllAssembliesAndSetupDomain (1874ms)
+		LoadAssemblies (1091ms)
+		TypeCache.Refresh (493ms)
+			TypeCache.ScanAssembly (459ms)
+		AnalyzeDomain (247ms)
+			BuildScriptInfoCaches (229ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1324ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (195ms)
+			ProcessInitializeOnLoadAttributes (550ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.99 ms, found 4 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6737 unused Assets / (2.1 MB). Loaded Objects now: 7497.
+Memory consumption went from 319.3 MB to 317.2 MB.
+Total: 21.989600 ms (FindLiveObjects: 1.242300 ms CreateObjectMapping: 0.478900 ms MarkObjects: 16.380400 ms  DeleteObjects: 2.893300 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.94 ms, found 4 plugins.
+Unloading 216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 126 unused Assets / (10.3 MB). Loaded Objects now: 7587.
+Memory consumption went from 337.7 MB to 327.4 MB.
+Total: 20.362900 ms (FindLiveObjects: 1.124600 ms CreateObjectMapping: 0.236900 ms MarkObjects: 13.508100 ms  DeleteObjects: 4.859400 ms)
+
+Prepare: number of updated asset objects reloaded= 58
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.50 ms, found 4 plugins.
+Unloading 124 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 126 unused Assets / (10.2 MB). Loaded Objects now: 7637.
+Memory consumption went from 344.3 MB to 334.0 MB.
+Total: 23.417400 ms (FindLiveObjects: 1.149100 ms CreateObjectMapping: 0.365900 ms MarkObjects: 14.997000 ms  DeleteObjects: 6.397600 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
+Unloading 110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (9.4 MB). Loaded Objects now: 7695.
+Memory consumption went from 345.8 MB to 336.4 MB.
+Total: 18.097300 ms (FindLiveObjects: 1.091400 ms CreateObjectMapping: 0.291700 ms MarkObjects: 12.321600 ms  DeleteObjects: 4.031300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:46:57.9517783Z
+  Time since last request: 14121.19755810000061 seconds.
+  importAddress: GUID: 376afd95160ff654bb21722bf55d9693 - Path: Assets/Grass.mat - Importer: PreviewImporter
+Importing 'GUID: 376afd95160ff654bb21722bf55d9693 - Path: Assets/Grass.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 376afd95160ff654bb21722bf55d9693' -> (Import Result ID: 'bbee40e31e3ca304275c841f55d18fe5') in 10.163 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6377b8a5633156f51d4c237388cdca1f DependenciesID=eef35692b9d595e2fd2dafd6e3418de8 StaticDependenciesID=58f402d3daf9ce6f855a931604214944 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.21 ms, found 4 plugins.
+Unloading 110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (9.4 MB). Loaded Objects now: 7761.
+Memory consumption went from 357.9 MB to 348.6 MB.
+Total: 20.390000 ms (FindLiveObjects: 1.493200 ms CreateObjectMapping: 0.342000 ms MarkObjects: 14.093000 ms  DeleteObjects: 3.956500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:47:08.695734Z
+  Time since last request: 0.5465776 seconds.
+  importAddress: GUID: 052faaac586de48259a63d0c4782560b - Path: Assets/InputSystem_Actions.inputactions - Importer: PreviewImporter
+Importing 'GUID: 052faaac586de48259a63d0c4782560b - Path: Assets/InputSystem_Actions.inputactions - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 052faaac586de48259a63d0c4782560b' -> (Import Result ID: '257a2ee0326124caa9f6719de2d6dccc') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e6866f0f84aa3519782f1e548f633af DependenciesID=39cc8e40bd79ca09b235818d3015303c StaticDependenciesID=913369315914f078524f3016d2c45c57 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:47:08.7421717Z
+  Time since last request: 0.0073818 seconds.
+  importAddress: GUID: 376afd95160ff654bb21722bf55d9693 - Path: Assets/Grass.mat - Importer: PreviewImporter
+Importing 'GUID: 376afd95160ff654bb21722bf55d9693 - Path: Assets/Grass.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 376afd95160ff654bb21722bf55d9693' -> (Import Result ID: 'bbee40e31e3ca304275c841f55d18fe5') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6377b8a5633156f51d4c237388cdca1f DependenciesID=eef35692b9d595e2fd2dafd6e3418de8 StaticDependenciesID=58f402d3daf9ce6f855a931604214944 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:47:08.8181524Z
+  Time since last request: 0.0070625 seconds.
+  importAddress: GUID: fad382e1288ad184bbb627ae32f73232 - Path: Assets/TerrainData.asset - Importer: PreviewImporter
+Importing 'GUID: fad382e1288ad184bbb627ae32f73232 - Path: Assets/TerrainData.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fad382e1288ad184bbb627ae32f73232' -> (Import Result ID: '5fd328874f6a806c27ec683e0ab342f5') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=103f7d1dcb8589b19ce28e9792e8ede0 DependenciesID=1a0b4f86453f8c8ee8353bfbbbfed0a3 StaticDependenciesID=b4c2f34d1e6abee769466485007bdd8e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:47:37.2484954Z
+  Time since last request: 28.3988387 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '581bc3117764f29221ac70c12b9a2095') in 0.137 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d2d71e189a97bb53e1c5ba82db9609b DependenciesID=d752155d7d00c0b1c0bd25e0452ea76b StaticDependenciesID=b19a005a626fe63ece5509ad4d6778d8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:47:37.4203242Z
+  Time since last request: 0.0006305 seconds.
+  importAddress: GUID: 5e6cbd92db86f4b18aec3ed561671858 - Path: Assets/Settings/Mobile_RPAsset.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5e6cbd92db86f4b18aec3ed561671858 - Path: Assets/Settings/Mobile_RPAsset.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5e6cbd92db86f4b18aec3ed561671858' -> (Import Result ID: '029d81ca283ce6952f026beb55cf5cb8') in 0.173 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=595236e88454e95c0ffa53433c5664b4 DependenciesID=0c90b2a6d8a161e98f45a9ef1375297e StaticDependenciesID=f1305a14cc479bdc87405b54119cabd8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:47:37.6114586Z
+  Time since last request: 0.0004429 seconds.
+  importAddress: GUID: 18dc0cd2c080841dea60987a38ce93fa - Path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 18dc0cd2c080841dea60987a38ce93fa - Path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 18dc0cd2c080841dea60987a38ce93fa' -> (Import Result ID: '6e18270639df5462a80b0699f07fec28') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8458da15c5a73069e2706cfe560750c DependenciesID=c9b9922234799921025d4c40bdf95e6d StaticDependenciesID=e6c219588af41cd8e52aa29e0107f0e5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:47:37.6706244Z
+  Time since last request: 0.0008483 seconds.
+  importAddress: GUID: 727a75301c3d24613a3ebcec4a24c2c8 - Path: Assets/TutorialInfo/Icons/URP.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 727a75301c3d24613a3ebcec4a24c2c8 - Path: Assets/TutorialInfo/Icons/URP.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 727a75301c3d24613a3ebcec4a24c2c8' -> (Import Result ID: '40b71599eb731bb43ce441f122ad83c0') in 0.087 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41adaf8b7acdc1a62b77dd4768bbc690 DependenciesID=a785c6c8209dc024a293e787f7872707 StaticDependenciesID=b4263074613837617e94928885a17057 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:47:37.8055605Z
+  Time since last request: 0.0006512 seconds.
+  importAddress: GUID: 65bc7dbf4170f435aa868c779acfb082 - Path: Assets/Settings/Mobile_Renderer.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 65bc7dbf4170f435aa868c779acfb082 - Path: Assets/Settings/Mobile_Renderer.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 65bc7dbf4170f435aa868c779acfb082' -> (Import Result ID: '0fd137002c477f32fb422ad7df70b377') in 0.052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4eaca65a89047859a85b033f981eb89 DependenciesID=a7c730cd39f9d76d5117d7e538953845 StaticDependenciesID=b54131b62d32bd74915f63b401879614 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:47:37.9067181Z
+  Time since last request: 0.0011672 seconds.
+  importAddress: GUID: fcf7219bab7fe46a1ad266029b2fee19 - Path: Assets/TutorialInfo/Scripts/Readme.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fcf7219bab7fe46a1ad266029b2fee19 - Path: Assets/TutorialInfo/Scripts/Readme.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fcf7219bab7fe46a1ad266029b2fee19' -> (Import Result ID: '9b6a173a2f68d41f71bcf6348ca44a7b') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a8db4b58be746238b24974c0612d8a1 DependenciesID=76173adb0a70909c5923d54d6874670b StaticDependenciesID=9547a03217258023598d5f214bd015fe 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T17:47:37.9458678Z
+  Time since last request: 0.0005127 seconds.
+  importAddress: GUID: 052faaac586de48259a63d0c4782560b - Path: Assets/InputSystem_Actions.inputactions - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 052faaac586de48259a63d0c4782560b - Path: Assets/InputSystem_Actions.inputactions - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 052faaac586de48259a63d0c4782560b' -> (Import Result ID: 'c285be0777929c27e8213eed08685b36') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41101b1d2f0f48c83a1ff6dbd8f5a713 DependenciesID=0440978953b266738fc45f2fcbb60ca2 StaticDependenciesID=772591a7b1a1ac02a381f5a45d64a787 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+Curl error 42: Callback aborted
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
